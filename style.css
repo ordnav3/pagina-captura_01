@@ -1,0 +1,28 @@
+main{
+    background-color: antiquewhite;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+}
+
+html{
+    background-image:url(./Imagens/Dülmen\,_Kirchspiel\,_Börnste\,_Neusträßer_Graben_--_2022_--_9891.jpg);
+    background-size: 100%;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    text-align: center;
+    background-color: red;
+    margin: 0%
+
+}
+
+#ima{
+    width: 100px;
+}
