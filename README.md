@@ -1,1 +1,1 @@
-Projeto pessoa para ver se sou bom mesmo
+Projeto pessoal para ver se sou bom mesmo

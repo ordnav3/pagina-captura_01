@@ -6,7 +6,6 @@
     <link rel="shortcut icon" href="./fav/favicon_et.ico" type="image/x-icon">
     <title>Olá</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./index.js"></script>
 </head>
 <body>
     <main>
@@ -25,7 +24,7 @@
                     e sla
                 </li>
                 <li>
-                    compra logo essa merda
+                    compra logo 
                 </li>
             </ul>
         </div>
@@ -38,19 +37,24 @@
         <h3>Vantagem 3</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, vitae corrupti! Laboriosam recusandae dolore, laborum maiores voluptatem repellendus doloremque possimus harum quas molestias nesciunt rem blanditiis dolorum nihil asperiores animi?</p>
         <form action="">
-            <input type="text" placeholder="Nome">
+            <input type="text" required id="txt" placeholder="Nome">
             <br/>
-            <input type="email" name="" id="" placeholder="Email">
+            <input type="email" required name="email" id="email" placeholder="Email">
             <br>
-            <input type="tel" name="" id="" placeholder="Numero">
+            <input type="tel" name="tel" id="tel" placeholder="Numero">
             <br>
-            <button type="submit">ENVIAR</button>
+            <input type="button" id="btn-enviar" onclick="boasvindas()" value="Enviar">
         </form>
+
+        <div id="res">
+            
+        </div>
         <footer>
             <p>&copy; todos os direitos reservados</p>
             <address>Rua sla, 135, sp , brazil</address>
         </footer>
 
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>

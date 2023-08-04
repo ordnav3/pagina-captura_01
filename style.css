@@ -8,7 +8,7 @@ main{
 
 html{
     background-image:url(./Imagens/Dülmen\,_Kirchspiel\,_Börnste\,_Neusträßer_Graben_--_2022_--_9891.jpg);
-    background-size: 130%;
+    background-size: 145%;
 
 }
 
@@ -51,9 +51,10 @@ form input{
     padding: 16px;
     margin-bottom: 8px;
     width: 700px;
+    border-radius: 10px;
 }
 
-form button{
+#btn-enviar{
     color: white;
     background-color: red;
     font-size: 50px;
@@ -62,13 +63,21 @@ form button{
     cursor: pointer;
 }
 
-form button:hover{
+#btn-enviar:hover{
     background-color: blue;
 }
 
-form button:focus{
+#btn-enviar:focus{
     outline-color: red;
     background-color: red;
     color: wheat;
 }
+
+#res{
+    background-color: wheat;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
 
